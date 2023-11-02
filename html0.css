@@ -1,0 +1,23 @@
+body{
+    background-image: url(./ik/Capture.JPG);
+    width: 500px;
+    display: flex;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    border-radius: 50px;
+}
+.lab{
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.about{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0.5rem;
+}
+
