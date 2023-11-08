@@ -13,44 +13,13 @@
             <h1>NavBar</h1>
         </div>
         <div class="btn">
-            <button>:</button>
+            <button><span class="navbar-toggler-icon"></span></button>
         </div>
     </header>
     <main>
-        <div class="contain-1 col-6">
-            <div class="input-group mb-3">
-                <input type="text" placeholder="Search Chapter Name" name="" id="chapter-name">
-                <button id="add_btn" class="btn-outline-success">ADD</button>
-            </div>
-            <ul id="parentList" class="list-group">
-                <li class="list-group-item d-flex justify-content-between"><h3>chapter-1 
-                    <button class="btn.btn-danger mx-5" style="background-color: rgba(255, 0, 0, 0.748); border: 0;">Remove</button>
-                    <button class="btn-danger mx-5" style="background-color: yellow; border: 0;">Edit</button>
-                </h3>
-                </li>
-            </ul>
-            
+        <div class="pdf-download">
+            <button class="python"><a href="./ik/Python in One Shot.pdf" download="python in one shot">python in one shot</a></button>
         </div>
     </main>
-    <script>
-        let addBtn = document.getElementById('add_btn')
-        addBtn.addEventListener('click', addchapter)
-
-        function addchapter(e){
-            let currentBtn = e.currentTarget;
-            let currentInput = currentBtn.previousElementSibling
-            
-
-            let newLi = document.createElement('li')
-            // newLi.classList.add('list-group-item')
-            newLi.className = "list-group-item d-flex justify-content-between"
-            newLi.innerHTML = '<h3>chapter-1 <button class="btn.btn-danger mx-5" style="background-color: rgba(255, 0, 0, 0.748); border: 0;">Remove</button><button class="btn-danger mx-5" style="background-color: yellow; border: 0;">Edit</button></h3>'
-            newLi.textContent = currentInput.value
-
-            let parentList = document.getElementById('parentList')
-            parentList.appendChild(newLi)
-        
-        }
-        </script>
 </body>
 </html>
