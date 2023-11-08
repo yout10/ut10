@@ -13,17 +13,55 @@ header{
     margin-left: auto;
     margin-right: 1rem;
 }
-.input-group{
+.python{
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+a{
+    text-decoration: none;
+}header{
     display: flex;
-    justify-content: center;
-    margin-top: 2rem;
+    background-color: rgb(0, 64, 255);
+    height: 50px;
 }
-#chapter-name{
-    width: 15rem;
-    height: 1.2rem;
+.lab{
+    align-items: center;
+    display: flex;
 }
-ul{
-    position: relative;
-    margin: auto;
-    width: 15rem;
+.btn{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.python{
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+a{
+    text-decoration: none;
+}header{
+    display: flex;
+    background-color: rgb(0, 64, 255);
+    height: 50px;
+}
+.lab{
+    align-items: center;
+    display: flex;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.python{
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+a{
+    text-decoration: none;
 }
