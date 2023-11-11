@@ -1,4 +1,4 @@
-header{
+yuheader{
     display: flex;
     background-color: rgba(33, 59, 138, 0.673);
     height: 50px;
@@ -20,7 +20,7 @@ header{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    height: 1.3rem;
+    height: 2rem;
     width: 10rem;
 }
 .html{
@@ -28,7 +28,7 @@ header{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    height: 1.3rem;
+    height: 2rem;
     width: 10rem;
 }
 .django{
@@ -37,7 +37,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    height: 1.3rem;
+    height: 2rem;
     width: 10rem;
 }
 .pdf-download{
@@ -56,7 +56,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    height: 1.3rem;
+    height: 2rem;
     width: 10rem;
 }
 a{
